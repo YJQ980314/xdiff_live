@@ -35,7 +35,7 @@ rust:
 
 ### How to use xdiff?
 
-You can use `cargo install xdiff-live` to install it (need help to [install rust toolchain](https://rustup.rs/)?). Once finished you shall be able to use it.
+You can use `git clone https://github.com/YJQ980314/xdiff_live.git` to copy this repo, and `cd ./xdiff_live`. Once finished you shall be able to use it.
 
 ``` trycmd
 $ xdiff-live --help
