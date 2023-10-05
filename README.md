@@ -36,34 +36,3 @@ rust:
 ### How to use xdiff?
 
 You can use `git clone https://github.com/YJQ980314/xdiff_live.git` to copy this repo, and `cd ./xdiff_live`. Once finished you shall be able to use it.
-
-``` trycmd
-$ xdiff-live --help
-Diff two http requests and compare the difference of the responses
-
-Usage: xdiff-live <COMMAND>
-
-Commands:
-  run    Diff two API responses based on given profile
-  parse  
-  help   Print this message or the help of the given subcommand(s)
-
-Options:
-  -h, --help     Print help
-  -V, --version  Print version
-
-```
-
-``` trycmd
-$ xdiff-live run --help
-Diff two API responses based on given profile
-
-Usage: xdiff-live run [OPTIONS] --profile <PROFILE>
-
-Options:
-  -p, --profile <PROFILE>            Profile Name
-  -e, --extra-params <EXTRA_PARAMS>  Overrides Args. Could be used to override the query, headers, and body of the request for query params, use `-e key=value` for headers, use `-e %key=value` for body, use `-e @key=value`
-  -c, --config <CONFIG>              Configuration to use
-  -h, --help                         Print help
-
-```
